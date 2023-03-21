@@ -28,21 +28,14 @@ Containers are made up of images.
 ### Docker Commands for Troubleshooting
 
 
-</p>
-</details>
-
-<details><summary>Docker vs Virtual Machine</summary>
-<p>
-
-## Docker vs Virtual Machine
+### Docker vs Virtual Machine
 Docker and virtual machine are both virtualization tools. However their difference are: </br>
 * Docker virtualizes the application layer of the operations system and uses the OS kernel of the host. The virtual machine on the other hand has the application layer and its own OS kernel.</br>
 * The size of Docker images are smaller compared to VM images.</br>
 * It is faster to run Docker containers as compared to VM.</br>
 * You can run a virtual machine image of any operation system on any other operation system host.
 
-</p>
-</details>
+
 
 
 
