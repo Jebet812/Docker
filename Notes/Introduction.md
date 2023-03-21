@@ -18,15 +18,6 @@ Containers are made up of images.
 ## Docker
 * **Docker Image** is the actual package that is movable and carries the configuration together with the dependencies.
 * **Docker Container** when you pull the image and the application actually starts on the machine it creates the container environment.
-### Basic Docker Commands
-* ``docker pull`` Pulls image from the repository to the local environment.
-* ``docker run`` combines docker pull and docker run. It pulls the image if not locally available and starts it.
-* ``docker run -d`` runs container in detached mode.
-* ``docker ps -a`` lists all containers whether running or not.
-* ``docker images`` lists all images you have locally.
-
-### Docker Commands for Troubleshooting
-
 
 ### Docker vs Virtual Machine
 Docker and virtual machine are both virtualization tools. However their difference are: </br>
@@ -35,7 +26,13 @@ Docker and virtual machine are both virtualization tools. However their differen
 * It is faster to run Docker containers as compared to VM.</br>
 * You can run a virtual machine image of any operation system on any other operation system host.
 
+### Basic Docker Commands
+* ``docker pull`` Pulls image from the repository to the local environment.
+* ``docker run`` combines docker pull and docker run. It pulls the image if not locally available and starts it.
+* ``docker run -d`` runs container in detached mode.
+* ``docker ps -a`` lists all containers whether running or not.
+* ``docker images`` lists all images you have locally.
 
-
+### Docker Commands for Troubleshooting
 
 
