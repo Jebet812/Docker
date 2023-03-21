@@ -20,10 +20,12 @@ Docker and virtual machine are both virtualization tools. However their differen
 
 ### Basic Docker Commands
 * ``docker pull`` Pulls image from the repository to the local environment.
-* ``docker run`` combines docker pull and docker run. It pulls the image if not locally available and starts it.
+* ``docker run`` combines ``docker pull`` and ``docker start`` It pulls the image if not locally available and starts it.
 * ``docker run -d`` runs container in detached mode.
 * ``docker ps -a`` lists all containers whether running or not.
 * ``docker images`` lists all images you have locally.
+* ``docker start`` used to start an existing container and retains all the attributes that was used when using `` docker run``
+* ``docker stop`` 
 
 ### Docker Commands for Troubleshooting
 * ``docker logs`` used to see what logs the container is producing.
