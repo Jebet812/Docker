@@ -15,3 +15,10 @@ Containers are made up of images.
 
 <details><summary>Docker</summary>
 <p>
+
+# Docker
+**Docker Image** is the actual package that is movable and carries the configuration together with the dependencies.
+**Docker Container** when you pull the image and the application actually starts on the machine it creates the container environment.
+
+</p>
+</details>
