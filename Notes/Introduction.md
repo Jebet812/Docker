@@ -8,7 +8,6 @@ A way to package an application with everything they need inside the package inc
 * It is its own isolated environment.
 * You can run the same application with two different versions.
 Containers are made up of images.
-**Container images:** are 
 
 </p>
 </details>
@@ -22,4 +21,17 @@ Containers are made up of images.
 
 </p>
 </details>
+
+<details><summary>Docker vs Virtual Machine</summary>
+<p>
+Docker and virtual machine are both virtualization tools. However their difference are:
+* Docker virtualizes the application layer of the operations system and uses the OS kernel of the host. The virtual machine on the other hand has the application layer and its own OS kernel.
+*The size of Docker images are smaller compared to VM images.
+* It is faster to run Docker containers as compared to VM.
+* You can run a virtual machine image of any operation system on any other operation system host.
+
+</p>
+</details>
+
+
 
