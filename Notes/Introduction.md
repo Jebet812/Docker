@@ -1,5 +1,3 @@
-<details><summary>Container</summary>
-<p>
 
 ## Container
 A way to package an application with everything they need inside the package including dependencies and configuration.
@@ -8,12 +6,6 @@ A way to package an application with everything they need inside the package inc
 * It is its own isolated environment.
 * You can run the same application with two different versions.
 Containers are made up of images.
-
-</p>
-</details>
-
-<details><summary>Docker</summary>
-<p>
 
 ## Docker
 * **Docker Image** is the actual package that is movable and carries the configuration together with the dependencies.
@@ -34,5 +26,7 @@ Docker and virtual machine are both virtualization tools. However their differen
 * ``docker images`` lists all images you have locally.
 
 ### Docker Commands for Troubleshooting
+* ``docker logs`` used to see what logs the container is producing.
+* ``docker exec -it`` used to get the terminal of the running container.
 
 
