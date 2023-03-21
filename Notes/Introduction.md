@@ -16,8 +16,8 @@ Containers are made up of images.
 <p>
 
 # Docker
-**Docker Image** is the actual package that is movable and carries the configuration together with the dependencies.
-**Docker Container** when you pull the image and the application actually starts on the machine it creates the container environment.
+* **Docker Image*** is the actual package that is movable and carries the configuration together with the dependencies.
+* **Docker Container*** when you pull the image and the application actually starts on the machine it creates the container environment.
 
 </p>
 </details>
@@ -25,10 +25,10 @@ Containers are made up of images.
 <details><summary>Docker vs Virtual Machine</summary>
 <p>
 Docker and virtual machine are both virtualization tools. However their difference are:
-* Docker virtualizes the application layer of the operations system and uses the OS kernel of the host. The virtual machine on the other hand has the application layer and its own OS kernel.
-*The size of Docker images are smaller compared to VM images.
-* It is faster to run Docker containers as compared to VM.
-* You can run a virtual machine image of any operation system on any other operation system host.
+1. Docker virtualizes the application layer of the operations system and uses the OS kernel of the host. The virtual machine on the other hand has the application layer and its own OS kernel.
+2. The size of Docker images are smaller compared to VM images.
+3. It is faster to run Docker containers as compared to VM.
+4. You can run a virtual machine image of any operation system on any other operation system host.
 
 </p>
 </details>
