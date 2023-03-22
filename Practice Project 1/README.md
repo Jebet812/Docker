@@ -1,5 +1,6 @@
 This is a practice to create a Docker image.
 It is a tiny web server to serve a webpage through NGINX. 
+
 ***Docker Commands used***
 ``docker build .`` build image
 ``docker build -t new-image`` build image with tag
