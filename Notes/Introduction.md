@@ -36,3 +36,6 @@ Docker and virtual machine are both virtualization tools. However their differen
 * ``docker exec -it`` used to get the terminal of the running container.
 
 
+## Resource Used
+[Docker Tutorial for Beginners [FULL COURSE in 3 Hours]](https://www.youtube.com/watch?v=3c-iBn73dDE&t=4856s) by 
+TechWorld with Nana
