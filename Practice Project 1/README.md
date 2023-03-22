@@ -1,5 +1,15 @@
 This is a practice to create a Docker image.
 It is a tiny web server to serve a webpage through NGINX. 
-Steps:
-1. ``FROM nginx:1.23.3-alpine`` to specify what baseImage we'll use for our image. Chose the latest nginx version but the alpine version since it is small.
-2. 
+***Docker Commands used***
+``docker build .`` build image
+``docker build -t new-image`` build image with tag
+``docker images`` list docker images
+``docker ps`` list docker containers
+``docker ps -a`` list docker containers including those stopped
+``docker run -d -p 80:80 <image id>`` create a container from image
+``docker stop``
+``docker start``
+``docker exec -t <container id> /bin/sh`` exec into a running container
+``docker rm <container id>`` remove container
+``docker build``
+``docker build``
