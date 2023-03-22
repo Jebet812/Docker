@@ -1,6 +1,12 @@
 This is a practice to create a Docker image.
 It is a tiny web server to serve a webpage through NGINX. 
 
+In the Dockerfile I used:
+* FROM to specify the base image used to build my image in this case NGINX from Dockerhub.
+* COPY to copy files from host machine to Docker image.
+* EXPOSE to expose a port. In this case documentantion dictates using port 80 so I did not use this command.
+* CMD command use for entry point.
+
 ### Docker Commands used
 * ``docker build .`` build image
 * ``docker build -t new-image`` build image with tag
