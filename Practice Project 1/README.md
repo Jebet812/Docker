@@ -11,5 +11,4 @@ It is a tiny web server to serve a webpage through NGINX.
 ``docker start``
 ``docker exec -t <container id> /bin/sh`` exec into a running container
 ``docker rm <container id>`` remove container
-``docker build``
-``docker build``
+``docker rmi <image id>`` remove image
